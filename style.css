@@ -61,10 +61,15 @@ a{
 }
 
 #name{
+    display: flex;
+    flex-direction: column;
     margin-top: 10%;
     justify-content: center;
     text-align: center;
     text-shadow: 2px 2px #1f1308e7;
+}
+.aboutMe{
+    align-self: center;
 }
 
 .textBox{
@@ -83,7 +88,7 @@ a{
     text-align: center;
 }
 
-.button{
+.button, .aboutMe{
     border: 2px solid #b87a40;
     border-radius: 10px;
     width: 70px;
