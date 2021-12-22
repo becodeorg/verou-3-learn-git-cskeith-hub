@@ -201,6 +201,7 @@ nav{
     border: 2px solid #b87a40;
     border-radius: 10px;
     width: 100%;
+    justify-content: center;
     padding-left: 4%;
     text-align: center;
     align-items: center;
